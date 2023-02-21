@@ -1,8 +1,10 @@
 ### Cervantes Information
-* <span class="fa-stack fa-2x">
+* <span class="fa-stack fa-1x">
         <i class="fas fa-circle fa-stack-2x" style="color: rgb(83, 170, 229); --darkreader-inline-color:#5aaee6;" data-darkreader-inline-color=""></i>
         <i class="fas fa-egg fa-stack-1x fa-inverse"></i>
         </span> Incubator Project
+        
+### Project Links
 * [Website](https://www.cervantessec.org/)
 * [Demo](http://demo.cervantessec.org/)
 * [Docs](https://docs.cervantessec.org/)
