@@ -44,7 +44,7 @@ Cervantes is an opensource collaborative platform for pentesters or red teams wh
 
 Cervantes has been created, developed and maintained by [Ruben Mesquida](mailto:ruben.mesquida@owasp.org)
 
-[![contrib](https://contrib.rocks/image?repo=CervantesSec/cervantes)](https://github.com/CervantesSec/cervantes/graphs/contributors)
+![contrib](https://contrib.rocks/image?repo=CervantesSec/cervantes)
 
 
 ## Licensing
