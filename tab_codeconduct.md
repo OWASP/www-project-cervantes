@@ -1,5 +1,5 @@
 ---
-title: Code of Conduct
+title: CodeOfConduct
 layout:  null
 tab: true
 order: 4
