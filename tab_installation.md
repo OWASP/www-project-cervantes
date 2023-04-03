@@ -35,7 +35,7 @@ git clone https://github.com/CervantesSec/docker.git
 2. After that you need to start your docker containers:
 
 ```sh
-docker-compose -p cervantes up -d
+docker-compose -p cervantes -f docker-compose.yml up -d
 ```
 
 3. After this, open your browser at http://localhost
@@ -51,7 +51,7 @@ admin@cervantes.local - Admin123.
 1. Install dotnet sdk from https://dotnet.microsoft.com/en-us/download
 
 
-2. Install PostgreSQL https://www.postgresql.org/download/
+2. Install PostgreSQL https://www.postgresql.org/download/ 
 
 
 3. Clone this repository
@@ -76,7 +76,7 @@ git clone https://github.com/CervantesSec/cervantes.git
     }
   },
   "AllowedHosts": "*",
-   "EmailConfiguration": {
+  "EmailConfiguration": {
     "Enabled": false,
     "Name": "Cervantes",
     "From": "cervantes@cervantes.local",
@@ -84,8 +84,8 @@ git clone https://github.com/CervantesSec/cervantes.git
     "SmtpPort": 1025,
     "SmtpUsername": "cervantes@cervantes.local",
     "SmtpPassword": "cervantes"
-    },
-    "JiraConfiguration": {
+  },
+  "JiraConfiguration": {
     "Enabled": false,
     "Auth": "Basic",
     "Url": "",
@@ -94,13 +94,14 @@ git clone https://github.com/CervantesSec/cervantes.git
     "Password": "",
     "ConsumerKey": "",
     "ConsumerSecret": "",
-    "AccessToken": "",
-    "TokenSecret": ""
+    "OAuthAccessToken": "",
+    "OAuthTokenSecret": ""
+    
   }
 }
 ```
 
-6. Run the project
+6. Run the project 
 
 ```sh
 dotnet run --project /CERVANTES_PATH/Cervantes.Web/
