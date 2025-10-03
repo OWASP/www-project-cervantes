@@ -1,0 +1,41 @@
+audience:
+  - breaker
+  - builder
+  - defender
+leaders:
+  - name: Ruben Mesquida
+    email: ruben.mesquida@owasp.org
+    github: mesquidar
+level: 2
+license:
+  - AGPL-3.0
+  - Apache-2.0
+name: OWASP Cervantes
+pitch: Cervantes is an opensource collaborative platform for pentesters or red teams who want to save time to manage their projects, clients, vulnerabilities
+  and reports in one place.
+repositories:
+  - name: www-project-cervantes
+    url: https://github.com/OWASP/www-project-cervantes
+    description: OWASP Foundation Web Repository
+  - name: .github
+    url: https://github.com/CervantesSec/.github
+    description: Organization Profile
+  - name: cervantes
+    url: https://github.com/CervantesSec/cervantes
+    description: Cervantes is an open-source, collaborative platform designed specifically for pentesters and red teams. It serves as a comprehensive management
+      tool, streamlining the organization of projects, clients, vulnerabilities, and reports in a single, centralized location.
+  - name: docker
+    url: https://github.com/CervantesSec/docker
+    description: 'Cervantes plataform docker repository '
+  - name: kubernetes
+    url: https://github.com/CervantesSec/kubernetes
+  - name: McpServer
+    url: https://github.com/CervantesSec/McpServer
+  - name: website
+    url: https://github.com/CervantesSec/website
+tags:
+  - cervantes
+  - custom-tag-1
+  - custom-tag-2
+type: tool
+website: https://owasp.org/www-project-cervantes
